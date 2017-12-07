@@ -135,7 +135,7 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-admin = [""]
+admin = ["uca51afa767df87ba3705494b97c3355c"]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
@@ -148,7 +148,7 @@ autocancel = {}
 autoinvite = []
 autoleaveroom = []
 
-admins = ["u8e24585f8677458d62ce174ff6dacc83"]
+admins = ["uca51afa767df87ba3705494b97c3355c"]
 Rx5 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx4 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
 Rx3 = ["u406133ad4d3fbe50a2f4d51ea081d050"]
@@ -172,7 +172,7 @@ wait = {
          ♝●❉•ARTHUR•❉●♝
             ∮.♪•Self★Bot•♪.∮
                  Add For me
-line.me/ti/p/~art-bot-cyber01
+line.me/ti/p/~getk3333
      ╚════♪•●♥●•♪════╝
 Thank For Add Me
 """,
@@ -406,7 +406,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "u7c6053763344625bb1159355020c5c27":
+                if msg.from_ == "uca51afa767df87ba3705494b97c3355c":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
