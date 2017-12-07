@@ -9,27 +9,27 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess,pickle
 
 cl = LINETCR.LINE()
-cl.login(token="EnsJx0ITbS8oPKShqME3.JIryx4z3ry1IZHDp9TRmGW./ppHQuxMoQoHu1UWV9WpfKvOS7znQhXzBc9VAm5ReR8=")
+cl.login(token="En9D54Az5c580fhdTGDc.YLgVP2FFH7O3buLlL8m1xa.fttk0Vac24dFEDE5Ul/s0PvDA+nq5S6UGG/6mncqJxE=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="En9Ry5x5zlBZHcDwGAZ3.N/6o2oDgZge0ng439NllSW.kZbkKVdqFwTxAVqJ2q/ZT2OD1Icr9wO+0I4VHIMNbes=")
+ki.login(token="Enz8S4qXsudAdQbe3Sod.6zkjQFWmC+uV1x5DkPufhq.AAhB2kdf0Y252sWFnG9RTHCIYt7SZ+9sSM5uJ3eBhno=")
 ki.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="EnyUBz7F1sPjHldzTez9.sEpoFLrSynl1O4R/jK+r6q.PzJAFSpglB7snKk8UqSlef9sjuSQ+HtcY6pXuMsCjxM=")
+kk.login(token="EnQYUIjkLTKRWIW702n0.8V1Jta/418TBYgV16PxNGa.hzGAiMHv7SflPvwJSPPpa7jGBNA/zfyldCWn2cf6Lio=")
 kk.loginResult()
 
 ks = LINETCR.LINE()
-ks.login(token="EnO2GN6LTjB8EXe0Vrl0.Yqmbk3y5dGImDYSHbIO7ia.qJa2BuEI854QohWxAK4v5I32fgpFxlbqo3VF35XJXBE=")
+ks.login(token="EnpV9kfXh5O8hRpcnSq2.5ZI9X23UFfjz9Yxw/jFEyG.zuWG/Uzp6tzdlukFNJoC1booeFk5wkhZMpxO0xYe5Mw=")
 ks.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="EnwyGTCAsTITb9fKygM0.qTqJ/tcbW+c9xovbLqJnya.v29JCQGZ8J/5GJ8fOgqoyGNyzr3NZrAeZdz3vEuv378=")
+kc.login(token="En4a6fFTnxgFSsHbTrQ7.MRMd87JLMY8NA0SCe7JEXW.g5WJ9Gj72yOylk6v7CE57r3/xACGiLhv/3NHQ+rdtC0=")		
 kc.loginResult()
 
 ka = LINETCR.LINE()
-ka.login(token="EnMZjPLxQtsNRHB0M2jb.brg8qqR4cXfYLtnKj4/hgW.T6W6tnjm0EdYNdbMLmenAluU7oA99bO6pGlGYKlYpd0=")
+ka.login(token="EnpV9kfXh5O8hRpcnSq2.5ZI9X23UFfjz9Yxw/jFEyG.zuWG/Uzp6tzdlukFNJoC1booeFk5wkhZMpxO0xYe5Mw=")
 ka.loginResult()
 
 cl
@@ -40,9 +40,7 @@ with open('profileSave.pkl') as f:
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
-─┅═✥ᵀᴴᴬᴵᴸᴬᴺᴰ✥═┅─
-    [ᴛᴇᴀᴍ ᴛᴇ̲̅s̲̅ᴛ ʙᴏᴛ]
+helpMessage ="""✍Ŧ€₳M ж Ħ₳ʗҜ฿❂Ŧ✈
 ╔══════════════════
 ║❂➣[Id]
 ║❂➣[Mid]
@@ -118,16 +116,17 @@ helpMessage ="""☬̫̫A̫̫R̫̫T̫̫H̫̫U̫̫R̫̫☬̫ SELF BOT
 ╠══════════════════
 ║•─✯͜͡ ᴀʀᴛʜᴜʀ★BOT
 ╠══════════════════
-║line.me/ti/p/~art-bot-cyber01
+║line.me/ti/p/~getk3333
 ╚══════════════════
 """
-helpMessage2 ="""•─ ͜͡ᴛᴇᴀᴍ ᴛᴇsᴛ ʙᴏᴛ͜͡ ─•
+helpMessage2 ="""✍Ŧ€₳M ж Ħ₳ʗҜ฿❂Ŧ✈
 ╔═══════════════════════
 ║❂➣[PROTECT: ON/OFF]:
 ║❂➣[BLOCK URL: ON/OFF]:
 ║❂➣[NAMELOCK: ON/OFF]:
 ║❂➣[BLOCKINVITE: ON/OFF]:
-╚═══════════════════════
+╚══════════════════════
+✍Ŧ€₳M ж Ħ₳ʗҜ฿❂Ŧ✈
 """
 KAC = [cl,ki,kk,ks,kc,ka]
 mid = cl.getProfile().mid
@@ -136,7 +135,7 @@ kimid = kk.getProfile().mid
 ki2mid = ks.getProfile().mid
 Cmid = kc.getProfile().mid
 Emid = ka.getProfile().mid
-admin = ["u8e24585f8677458d62ce174ff6dacc83","uf291388a1ed2cb1a0864b84a7b6106a6"]
+admin = [""]
 me = cl.getProfile().mid
 bot1 = cl.getProfile().mid
 main = cl.getProfile().mid
